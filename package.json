@@ -1,0 +1,17 @@
+{
+  "name": "local-media-distributor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "playwright": "^1.55.0"
+  },
+  "engines": { "node": ">=20" }
+}

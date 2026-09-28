@@ -1,0 +1,10 @@
+.upload-zone{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;width:100%;min-height:145px;padding:20px;border:1.5px dashed #bdc8d4;border-radius:13px;background:#f8fafb;color:#8793a0;text-align:center;font-weight:400}
+.upload-zone:hover:not(:disabled),.upload-zone.dragging{background:#f0f7e0;border-color:#8eaf56;transform:none}
+.upload-zone strong{font-size:15px;color:#2c343e}
+.upload-zone span:last-child{font-size:12px}
+.upload-zone .upload-symbol{display:grid;place-items:center;width:34px;height:34px;background:#e8f4c7;color:#536d29;border-radius:10px;font-size:23px;font-weight:400}
+.upload-zone:disabled{background:#f5f6f7;border-color:#dce1e5;cursor:default}
+.upload-help{font-size:11px;color:#98a1ab;margin-top:9px}
+.preview-head{display:flex;justify-content:space-between;align-items:center;margin-top:18px;min-height:22px}
+.text-button{background:transparent;color:#667683;font-size:11px;padding:3px 0}
+.text-button:hover{color:#252b32;transform:none!important}
